@@ -57,10 +57,10 @@ def timeit_helper(num_repeats, runs_per_repeat):
 
 def main():
     """Computes a list of duplicate movie entries"""
-    # result = find_duplicate_movies('movies.txt')
-    # print('Found {} duplicate movies:'.format(len(result)))
-    # print('\n'.join(result))
-    timeit_helper(3, 7)
+    result = find_duplicate_movies('movies.txt')
+    print('Found {} duplicate movies:'.format(len(result)))
+    print('\n'.join(result))
+    # timeit_helper(3, 7)
 
 
 if __name__ == '__main__':
